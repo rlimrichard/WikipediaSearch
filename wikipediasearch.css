@@ -1,0 +1,76 @@
+body{
+    font-family: 'Linux Libertine',Georgia,Times,serif;
+    text-align: center;
+    left: 50%;
+    background-color: #247E2A;
+}
+
+.container{
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 0px 12px 0px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.searchEnter{
+    /*width: 130px;*/
+    width: 80%;
+    /*box-sizing: border-box;*/
+    border: none;
+    border-bottom: : 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.btn{
+    font-size: 16px;
+    margin: 20px 2px 5px 2px;
+    height: 30px;
+    padding-right: 10;
+    padding-left: 10;
+    opacity:1;
+}
+
+h1{
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: .15em;
+    font-weight: lighter;
+    margin: 10 0 20 0;
+    color:white;
+}
+h2{
+    text-align: left;
+}
+
+a,
+a:visited,
+a:active{
+    color:#585A69;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+a:hover{
+    opacity:1;
+}
+
+.results{
+    text-align: center;
+    left: 50%;
+    width: 100%;
+}
+
+.row{
+
+    padding: 10 10 10 10;
+    margin: 30 10 10 10;
+    text-align: justify;
+
+    background-color: white;
+    border: 1px solid #ccc;
+}
